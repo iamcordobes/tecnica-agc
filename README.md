@@ -31,5 +31,41 @@ Sigue los pasos a continuación para ejecutar el proyecto en tu máquina local:
 
 ### 1️⃣ Clonar el repositorio
 ```bash
-git clone https://github.com/tu-usuario/tecnica-agc.git
+git clone https://github.com/iamcordobes/tecnica-agc
 cd tecnica-agc
+```
+
+### 2️⃣ Instalar las dependencias (Asegúrate de tener Node.js (v16 o superior) y npm instalados en tu máquina.)
+```bash
+npm install
+```
+
+### 3️⃣ Ejecutar el servidor de desarrollo
+```bash
+npm run dev
+```
+
+### 2️⃣ Instalar las dependencias
+```bash
+npm install
+```
+
+## 📋 Estructura del Proyecto
+├── src/
+│   ├── assets/              # Archivos estáticos
+│   │   ├── cursor.svg
+│   │   ├── loading.gif
+│   ├── components/          # Componentes reutilizables
+│   │   ├── GridGaleria.vue
+│   │   ├── Imagen.vue
+│   │   ├── Loader.vue
+│   ├── router/              # Configuración de rutas
+│   │   ├── index.js
+│   ├── views/               # Vista principal
+│   │   ├── Home.vue
+│   ├── AGC.vue              # Main Vue
+│   ├── main.js              # Punto de entrada principal
+│   ├── style.css            # Estilos globales
+│   ├── tailwind.config.js   # Configuración de Tailwind CSS
+├── package.json             # Configuración del proyecto y dependencias
+├── vite.config.js           # Configuración de Vite
