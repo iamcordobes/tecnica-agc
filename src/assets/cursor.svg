@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="60" viewBox="0 0 60 60">
+    <!-- Filtro para la sombra -->
+    <defs>
+        <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+            <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="black" flood-opacity="0.5" />
+        </filter>
+    </defs>
+
+    <!-- Círculo exterior con sombra -->
+    <circle cx="10" cy="28" r="15" stroke="white" stroke-width="2" fill="none" filter="url(#shadow)" />
+
+    <!-- Letra A con sombra -->
+    <text x="1" y="35" font-size="24" font-family="Arial, sans-serif" font-weight="bold" fill="#9f0712" filter="url(#shadow)">
+        A
+    </text>
+</svg>
