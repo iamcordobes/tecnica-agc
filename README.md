@@ -51,21 +51,7 @@ npm install
 ```
 
 ## 📋 Estructura del Proyecto
-├── src/
-│   ├── assets/              # Archivos estáticos
-│   │   ├── cursor.svg
-│   │   ├── loading.gif
-│   ├── components/          # Componentes reutilizables
-│   │   ├── GridGaleria.vue
-│   │   ├── Imagen.vue
-│   │   ├── Loader.vue
-│   ├── router/              # Configuración de rutas
-│   │   ├── index.js
-│   ├── views/               # Vista principal
-│   │   ├── Home.vue
-│   ├── AGC.vue              # Main Vue
-│   ├── main.js              # Punto de entrada principal
-│   ├── style.css            # Estilos globales
-│   ├── tailwind.config.js   # Configuración de Tailwind CSS
-├── package.json             # Configuración del proyecto y dependencias
-├── vite.config.js           # Configuración de Vite
+![img.png](src/assets/estructura.png)
+
+## Visualizacion General
+![img.png](src/assets/demo.png)
