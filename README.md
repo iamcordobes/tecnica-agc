@@ -35,19 +35,14 @@ git clone https://github.com/iamcordobes/tecnica-agc
 cd tecnica-agc
 ```
 
-### 2️⃣ Instalar las dependencias (Asegúrate de tener Node.js (v16 o superior) y npm instalados en tu máquina.)
+### 2️⃣ Instalar las dependencias (Asegúrate de tener Node.js (v16 o superior) y yarn instalados en tu máquina.)
 ```bash
-npm install
+yarn install
 ```
 
 ### 3️⃣ Ejecutar el servidor de desarrollo
 ```bash
-npm run dev
-```
-
-### 2️⃣ Instalar las dependencias
-```bash
-npm install
+yarn dev
 ```
 
 ## 📋 Estructura del Proyecto
@@ -55,3 +50,6 @@ npm install
 
 ## Visualizacion General
 ![img.png](src/assets/demo.png)
+
+## Prueba Jest
+![img.png](src/assets/prueba.png)
